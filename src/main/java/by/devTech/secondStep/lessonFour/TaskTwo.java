@@ -6,7 +6,13 @@ public class TaskTwo {
 
         int a = 12;
         int b = 8;
-        boolean c = (a > b) | (a < b);
-        System.out.println(c);
+        boolean c = (a < b) || (a > b);
+        if (a > b)
+        {
+            System.out.println(a + " больше");
+        }
+        else{
+            System.out.println(b + " больше");
+        }
     }
 }
