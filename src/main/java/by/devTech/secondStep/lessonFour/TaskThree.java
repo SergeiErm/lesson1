@@ -8,37 +8,59 @@ public class TaskThree {
         int b = 13;
         int c = 19;
         int d = -7;
-        boolean e = (a <= b) | (a <= c) | (a <= d);
-        boolean f = (b <= a) | (b <= c) | (b <= d);
-        boolean g = (c <= a) | (c <= b) | (c <= d);
-        boolean h = (d <= a) | (d <= b) | (d <= c);
-        if ((a <= b) | (a <= c) | (a <= d))
+        if (a >= b)
         {
-            System.out.println(12 + " меньше");
+            System.out.println(a + " больше " + b);
         }
-        else{
-            System.out.print(12 + " больше");
-        }
-        if ((b <= a) | (b <= c) | (b <= d))
+        else if (a >= c)
         {
-            System.out.println(13 + " меньше");
+            System.out.println(a + " больше " + c);
         }
-        else{
-            System.out.println(13 + " больше");
-        }
-        if ((c <= a) | (c <= b) | (c <= d))
+        else if (a >= d)
         {
-            System.out.println(19 + " меньше");
+            System.out.println(a + " больше " + d);
         }
-        else{
-            System.out.println(19 + " больше");
-        }
-        if ((d <= a) | (d <= b) | (d <= c))
+        if (b >= a)
         {
-            System.out.println(-7 + " меньше");
+            System.out.println(b + " больше " + a);
         }
-        else{
-            System.out.println(-7 + " больше");
+        else if (b >= c)
+        {
+            System.out.print(b + " больше " + c);
+        }
+        else if (b >= d)
+        {
+            System.out.println(b + " больше " + d);
+        }
+        if (c >= a)
+        {
+            System.out.println(c + " больше " + a);
+        }
+        else if (c >= b)
+        {
+            System.out.println(c + " больше " + b);
+        }
+        else if (c >= d)
+        {
+            System.out.println(c + " больше " + d);
+        }
+        if (d >= a)
+        {
+            System.out.println(d + " больше " + a);
+        }
+        else if (d >= b)
+        {
+            System.out.println(d + " больше " + b);
+        }
+        else if (d >= c)
+        {
+            System.out.println(d + " больше " + c);
+        }
+        else
+        {
+            System.out.println(d + " меньше " + a + ", " + c + ", " +  b);
         }
     }
 }
+
+

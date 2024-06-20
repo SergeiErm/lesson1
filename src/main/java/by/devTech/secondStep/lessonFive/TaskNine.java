@@ -10,11 +10,46 @@ public class TaskNine {
         int d = 12;
         int e = 32;
         int f = 82;
-        int min = Math.min(
-                Math.min(a,b),
-                Math.min(c,d));
-        System.out.println(Math.min(
-                Math.min(min,e),
-                Math.min(min,f)));
+        if (a < b)
+        {
+            System.out.println(a + " меньше " + b);
+        }
+        else
+        {
+            System.out.println(a + " больше " + b);
+        }
+        if (b < c)
+        {
+            System.out.println(b + " меньше " + c);
+        }
+        else
+        {
+            System.out.println(b + " больше " + c);
+        }
+        if (c < d)
+        {
+            System.out.println(c + " меньше " + d);
+        }
+        else
+        {
+            System.out.println(c + " больше " + b);
+        }
+        if (d < e)
+        {
+            System.out.println(d + " меньше " + e);
+        }
+        else
+        {
+            System.out.println(d + " больше " + e);
+        }
+        if (e < f)
+        {
+            System.out.println(e + " меньше " + f);
+        }
+        else
+        {
+            System.out.println(e + " больше " + f);
+        }
+
     }
 }
