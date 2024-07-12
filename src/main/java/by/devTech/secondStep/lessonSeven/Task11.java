@@ -12,12 +12,7 @@ public class Task11 {
         }
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
-                if (j > 9 - i) {
-                    System.out.print(nums[i][j] + " ");
-                }
-                else {
-                    System.out.print(" ");
-                }
+                System.out.print((j > 9 - i) ? nums[i][j] + " " : " ");
             }
             System.out.println();
         }

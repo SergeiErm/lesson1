@@ -8,14 +8,9 @@ public class Task10 {
         int sum = 0;
 
         for (int i = 0; i < 30; i++) {
-            for (int j = 0; j < 30; j++) {
-                nums[i][j] = i + j;
-                if (i == j) {
-                    sum += nums[i][j];
-                }
-            }
+            nums[i][i] = i + 1;
+            sum += nums[i][i];
         }
-
         System.out.println(sum);
     }
 }

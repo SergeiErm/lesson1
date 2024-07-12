@@ -10,9 +10,9 @@ public class Task2 {
         Random random = new Random();
         for (int i = 0; i < nums.length; i++) {
             nums[i] = (random.nextInt(959) + 11);
-            if (nums[i] % 2 == 0) {
-                System.out.println(nums[i]);
-            }
+        }
+        for (int i = 0; i < nums.length; i += 2) {
+            System.out.println("элемент с четным номером " + i + ": " + nums[i]);
         }
     }
 }
